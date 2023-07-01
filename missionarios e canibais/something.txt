@@ -1,0 +1,73 @@
+class BuscaProfundidade:
+    def __init__(self, start_state, goal_state):
+        self.estados_visitados = set()
+        self.start_state = start_state
+        self.goal_state = goal_state
+        self.num_m = start_state[0]
+        self.num_c = start_state[1] 
+
+    def is_valid_state(self, state):
+        missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
+
+        # Verifica se o estado é válido
+        if missionarios_esquerda < 0 or canibais_esquerda < 0 or missionarios_direita < 0 or canibais_direita < 0:
+            return False
+        if missionarios_esquerda > self.num_m or canibais_esquerda > self.num_c or missionarios_direita > self.num_m or canibais_direita > self.num_c:
+            return False
+        if (missionarios_esquerda < canibais_esquerda and missionarios_esquerda > 0) or (missionarios_direita < canibais_direita and missionarios_direita > 0):
+            return False
+        return True
+
+    def generate_next_states(self, state):
+        states = []
+        missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
+
+        if barco == 'esquerda':
+            for m in range(min(self.num_m, 2)):
+                for c in range(min(self.num_c, 2)):
+                    if m + c > 0 and m + c <= 2:
+                        new_state = (
+                            missionarios_esquerda - m,
+                            canibais_esquerda - c,
+                            'direita',
+                            missionarios_direita + m,
+                            canibais_direita + c
+                        )
+                        if self.is_valid_state(new_state):
+                            states.append(new_state)
+        else:
+            for m in range(min(self.num_m, 2)):
+                for c in range(min(self.num_c, 2)):
+                    if m + c > 0 and m + c <= 2:
+                        new_state = (
+                            missionarios_esquerda + m,
+                            canibais_esquerda + c,
+                            'esquerda',
+                            missionarios_direita - m,
+                            canibais_direita - c
+                        )
+                        if self.is_valid_state(new_state):
+                            states.append(new_state)
+
+        return states
+
+    def dfs(self, state, path):
+        print(f"Estado atual: {state}")
+        self.estados_visitados.add(state)
+
+        if state == self.goal_state:
+            return path
+        next_states = self.generate_next_states(state)
+        print(f"Próximos estados: {next_states}")
+        for next_state in next_states:
+            if next_state not in self.estados_visitados:
+                new_path = path + [next_state]
+                print(f"Caminho atual: {new_path}")
+                result = self.dfs(next_state, new_path)
+                if result:
+                    return result
+
+        return None
+
+    def resolver(self):
+        return self.dfs(self.start_state, [self.start_state])
