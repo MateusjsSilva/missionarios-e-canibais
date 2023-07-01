@@ -1,4 +1,5 @@
 #Somente modifiquei o em profundidade, por algum motivo ele não soluciona corretamente
+from collections import deque
 
 class BuscaProfundidade:
     def __init__(self, start_state, goal_state):
@@ -78,7 +79,89 @@ class BuscaProfundidade:
     def resolver(self):
         return self.dfs(self.start_state, [self.start_state], 0)  # Inicia a profundidade com 0
 
+class BuscaLargura:
+    def __init__(self, start_state, goal_state):
+        self.estados_visitados = set()
+        self.start_state = start_state
+        self.goal_state = goal_state
 
+    def is_valid_state(self, state):
+        missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
+
+        # Verifica se o estado é válido
+        if missionarios_esquerda < 0 or canibais_esquerda < 0 or missionarios_direita < 0 or canibais_direita < 0:
+            return False
+        if missionarios_esquerda > 3 or canibais_esquerda > 3 or missionarios_direita > 3 or canibais_direita > 3:
+            return False
+        if (missionarios_esquerda < canibais_esquerda and missionarios_esquerda > 0) or (missionarios_direita < canibais_direita and missionarios_direita > 0):
+            print("ERRO: Há mais canibais que missionários em uma das bordas!\n")
+            return False
+        print(">>>Estado aceito.<<<\n")
+        return True
+
+    def generate_next_states(self, state):
+        states = []
+        missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
+
+        if barco == 'esquerda':
+            for m in range(3):
+                for c in range(3):
+                    if m + c > 0 and m + c <= 2:
+                        new_state = (
+                            max(missionarios_esquerda - m, 0),
+                            max(canibais_esquerda - c, 0),
+                            'direita',
+                            min(missionarios_direita + m, 3),
+                            min(canibais_direita + c, 3)
+                        )
+                        print(f"Novo estado: {new_state}")
+                        if self.is_valid_state(new_state):
+                            states.append(new_state)
+        else:
+            for m in range(3):
+                for c in range(3):
+                    if m + c > 0 and m + c <= 2:
+                        new_state = (
+                            min(missionarios_esquerda + m, 3),
+                            min(canibais_esquerda + c, 3),
+                            'esquerda',
+                            max(missionarios_direita - m, 0),
+                            max(canibais_direita - c, 0)
+                        )
+                        print(f"Novo estado: {new_state}")
+                        if self.is_valid_state(new_state):
+                            states.append(new_state)
+
+        return states
+
+    def bfs(self, state, path, depth):
+        fila = deque()
+        fila.append([state])
+
+        while fila:
+            path = fila.popleft()
+            state = path[-1]
+
+            if state == self.goal_state:
+                print(f"Profundidade da solução: {len(path) - 1}")
+                return path
+
+            self.estados_visitados.add(state)
+            next_states = self.generate_next_states(state)
+
+            for next_state in next_states:
+                if next_state not in self.estados_visitados:
+                    if self.is_valid_state(next_state):
+                        new_path = list(path)
+                        new_path.append(next_state)
+                        fila.append(new_path)
+
+        return None
+
+    def resolver(self):
+        return self.bfs(self.start_state, [self.start_state], 0)  # Inicia a profundidade com 0
+
+    
 class BuscaGulosa:
     def __init__(self, start_state, goal_state):
         self.estados_visitados = set()

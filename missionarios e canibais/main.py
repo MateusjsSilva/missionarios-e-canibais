@@ -1,4 +1,4 @@
-from canibais import BuscaProfundidade, BuscaGulosa, BuscaAStar
+from canibais import BuscaProfundidade, BuscaLargura, BuscaGulosa, BuscaAStar
 import time
 
 def main():
@@ -20,8 +20,11 @@ def main():
 
         elif option == 1:
             # Executar busca em largura
-            # ...
-            pass
+            busca = BuscaLargura(start_state, goal_state)
+            t_start = time.perf_counter()
+            solucao = busca.resolver()
+            t_end = time.perf_counter()
+            printSolucao(solucao, t_end, t_start)
 
         elif option == 2:
             # Executar busca profundidade
@@ -82,7 +85,6 @@ def printSolucao(solucao, t_end, t_start):
         print('>>>>>>>>>> Não foi encontrada uma solução. <<<<<<<<<<<<<<')
     
     print('\nTempo decorrido: {:.4f} ms\n\n'.format(t_end - t_start))
-
 
 if __name__ == "__main__":
     main()
