@@ -53,7 +53,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
-            criar_arvore(busca)
+            #criar_arvore(busca)
 
         elif option == 2:
             # Executar busca profundidade
@@ -63,7 +63,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
-            criar_arvore(busca)
+            #criar_arvore(busca)
 
         elif option == 3:
             # Executar busca gulosa
@@ -73,7 +73,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
-            criar_arvore(busca)
+            #criar_arvore(busca)
 
         elif option == 4:
             # Executar busca A*
@@ -83,7 +83,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
-            criar_arvore(busca)
+            #criar_arvore(busca)
 
 
 def print_menu():
