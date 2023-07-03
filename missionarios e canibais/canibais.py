@@ -8,7 +8,7 @@ class BuscaProfundidade:
         self.goal_state = goal_state
         self.resultOut = None 
         try:
-            self.resultOut = open("missionarios-e-canibais/missionarios e canibais/out/bf-result.txt", "w")
+            self.resultOut = open("missionarios e canibais/out/bf-result.txt", "w")
         except:
             pass
         print("------------------Algoritmo: Busca em profundidade------------------\n", file=self.resultOut)
@@ -92,7 +92,7 @@ class BuscaLargura:
         self.goal_state = goal_state
         self.resultOut = None 
         try:
-            self.resultOut = open("missionarios-e-canibais/missionarios e canibais/out/bl-result.txt", "w")
+            self.resultOut = open("missionarios e canibais/out/bl-result.txt", "w")
         except:
             pass
         print("------------------Algoritmo: Busca em Largura------------------\n", file=self.resultOut)
@@ -185,7 +185,7 @@ class BuscaGulosa:
         self.goal_state = goal_state
         self.resultOut = None 
         try:
-            self.resultOut = open("missionarios-e-canibais/missionarios e canibais/out/bg-result.txt", "w")
+            self.resultOut = open("missionarios e canibais/out/bg-result.txt", "w")
         except:
             pass
         print("------------------Algoritmo: Busca Gulosa------------------\n", file=self.resultOut)
@@ -273,7 +273,7 @@ class BuscaAStar:
         self.goal_state = goal_state
         self.resultOut = None 
         try:
-            self.resultOut = open("missionarios-e-canibais/missionarios e canibais/out/bas-result.txt", "w")
+            self.resultOut = open("missionarios e canibais/out/bas-result.txt", "w")
         except:
             pass
         print("------------------Algoritmo: Busca A*------------------\n", file=self.resultOut)
