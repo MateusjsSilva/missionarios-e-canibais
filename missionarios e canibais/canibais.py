@@ -6,6 +6,10 @@ class BuscaProfundidade:
         self.estados_visitados = set()
         self.start_state = start_state
         self.goal_state = goal_state
+        self.depth = 0
+        self.qntNodesGen = 0
+        self.qntNodesExp = 0
+        
         self.resultOut = None 
         try:
             self.resultOut = open("missionarios e canibais/out/bf-result.txt", "w")
@@ -43,8 +47,10 @@ class BuscaProfundidade:
                             canibais_direita + c
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
+                        self.qntNodesGen += 1
                         if self.is_valid_state(new_state):
                             states.append(new_state)
+                            self.qntNodesExp += 1
         else:
             for m in range(3):
                 for c in range(3):
@@ -57,19 +63,24 @@ class BuscaProfundidade:
                             canibais_direita - c
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
+                        self.qntNodesGen += 1
                         if self.is_valid_state(new_state):
                             states.append(new_state)
+                            self.qntNodesExp += 1
 
         return states
 
     def dfs(self, state, path, depth):
         self.estados_visitados.add(state)
-        print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------", file=self.resultOut)
         if state == self.goal_state:
-            print(f"Profundidade da solução: {len(path) - 1}", file=self.resultOut)
+            print(f"Profundidade da solução: {depth}", file=self.resultOut)
+            self.depth = depth
             return path
+        
+        print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------", file=self.resultOut)
 
         next_states = self.generate_next_states(state)
+
         for next_state in next_states:
             print(f"\nVerificando próximo estado: {next_state}", file=self.resultOut)
             if next_state not in self.estados_visitados:

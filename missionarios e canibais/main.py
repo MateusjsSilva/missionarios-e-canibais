@@ -4,7 +4,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 
-def criar_arvore(busca):
+""" def criar_arvore(busca):
     grafo = nx.DiGraph()
     for estado in busca.estados_visitados:
         grafo.add_node(estado)
@@ -28,7 +28,19 @@ def plotar_arvore_estados(grafo):
 
     plt.show()
 
-
+ """
+ 
+def plot_info(busca, nome):
+    dados = [busca.depth, busca.qntNodesGen, busca.qntNodesExp]
+    nomes = ['Profundidade', 'Nós gerados', 'Nós expandidos']
+    cores = ['red', 'green', 'yellow']
+    indices = range(len(dados))
+    plt.bar(indices, dados, color=cores)
+    plt.title("Busca em profundidade")
+    plt.ylabel("Profundidade")
+    plt.xticks(indices, nomes)
+    plt.show()     
+ 
 def main():
     quantidade = 3
     canibais, missionarios = quantidade, quantidade
@@ -53,6 +65,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
+           
             #criar_arvore(busca)
 
         elif option == 2:
@@ -63,6 +76,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
+            plot_info(busca)
             #criar_arvore(busca)
 
         elif option == 3:
