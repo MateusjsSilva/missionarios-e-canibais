@@ -1,4 +1,4 @@
-from canibais import BuscaProfundidade, BuscaLargura, BuscaGulosa, BuscaAStar
+from missionarios_canibaisFinal import BuscaProfundidade, BuscaLargura, BuscaGulosa, BuscaAStar
 import time
 import networkx as nx
 import matplotlib.pyplot as plt
