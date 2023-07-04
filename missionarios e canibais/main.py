@@ -41,8 +41,7 @@ def main():
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
             plot_info(busca, 'Busca em largura')
-           
-            #criar_arvore(busca)
+          
 
         elif option == 2:
             # Executar busca profundidade
@@ -53,7 +52,6 @@ def main():
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
             plot_info(busca, 'Busca em profundidade')
-            #criar_arvore(busca)
 
         elif option == 3:
             # Executar busca gulosa
@@ -64,7 +62,6 @@ def main():
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
             plot_info(busca, 'Busca gulosa')
-            #criar_arvore(busca)
 
         elif option == 4:
             # Executar busca A*
@@ -75,7 +72,6 @@ def main():
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
             plot_info(busca, 'Busca em A*')
-            #criar_arvore(busca)
 
 
 def print_menu():
