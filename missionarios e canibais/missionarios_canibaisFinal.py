@@ -28,9 +28,9 @@ class BuscaProfundidade:
         if missionarios_esquerda > 3 or canibais_esquerda > 3 or missionarios_direita > 3 or canibais_direita > 3:
             return False
         if (missionarios_esquerda < canibais_esquerda and missionarios_esquerda > 0) or (missionarios_direita < canibais_direita and missionarios_direita > 0):
-            print("ERRO: Há mais canibais que missionários em uma das bordas!\n", file=self.resultOut)
+            print(f"Expandido: {state}", file=self.resultOut)
+            print("ERRO: Ha mais canibais que missionarios em uma das bordas!\n", file=self.resultOut)
             return False
-        print(">>>Estado aceito.<<<\n", file=self.resultOut)
         return True
 
     def generate_next_states(self, state):
@@ -49,13 +49,14 @@ class BuscaProfundidade:
                             missionarios_direita + m,
                             canibais_direita + c
                         )
-                        print(f"Novo estado: {new_state}", file=self.resultOut)
+                        
                         self.qntNodesGen += 1
                         self.qntNodesFront +=1
                         
                         if self.is_valid_state(new_state):
                             states.append(new_state)
                             self.qntNodesExp += 1
+                            print(f"Expandido: {new_state} (Estado aceito)\n", file=self.resultOut)
                             
         else:
             for m in range(3):
@@ -68,13 +69,14 @@ class BuscaProfundidade:
                             missionarios_direita - m,
                             canibais_direita - c
                         )
-                        print(f"Novo estado: {new_state}", file=self.resultOut)
+
                         self.qntNodesGen += 1
                         self.qntNodesFront +=1
                         
                         if self.is_valid_state(new_state):
                             states.append(new_state)
                             self.qntNodesExp += 1
+                            print(f"Expandido: {new_state} (Estado aceito)\n", file=self.resultOut)
                             
         return states
 
@@ -86,20 +88,20 @@ class BuscaProfundidade:
             self.depth = depth
             return path
         
-        print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------", file=self.resultOut)
+        print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------\n", file=self.resultOut)
 
         next_states = self.generate_next_states(state)
 
         for next_state in next_states:
-            print(f"\nVerificando próximo estado: {next_state}", file=self.resultOut)
+            print(f"Verificando proximo estado: {next_state}", file=self.resultOut)
             if next_state not in self.estados_visitados:
-                print("Estado não visitado!!", file=self.resultOut)
+                print("Estado nao visitado!!", file=self.resultOut)
                 new_path = path + [next_state]
                 result = self.dfs(next_state, new_path, depth + 1)  # Incrementa a profundidade
                 if result:
                     return result
             else:
-                print("Estado já visitado!!", file=self.resultOut)
+                print("Estado ja visitado!!", file=self.resultOut)
         return None
 
     def resolver(self):
@@ -169,9 +171,10 @@ class BuscaGulosa:
         if missionarios_esquerda > 3 or canibais_esquerda > 3 or missionarios_direita > 3 or canibais_direita > 3:
             return False
         if (missionarios_esquerda < canibais_esquerda and missionarios_esquerda > 0) or (missionarios_direita < canibais_direita and missionarios_direita > 0):
-            print("ERRO: Há mais canibais que missionários em uma das bordas!\n", file=self.resultOut)
+            print(f"Expandido: {state}", file=self.resultOut)
+            print("ERRO: Ha mais canibais que missionarios em uma das bordas!\n", file=self.resultOut)
             return False
-        print(">>>Estado aceito.<<<\n", file=self.resultOut)
+        
         return True
 
     def generate_next_states(self, state):
@@ -190,13 +193,14 @@ class BuscaGulosa:
                             missionarios_direita + m,
                             canibais_direita + c
                         )
-                        print(f"Novo estado: {new_state}", file=self.resultOut)
+                        
                         self.qntNodesGen += 1
                         self.qntNodesFront +=1
                         
                         if self.is_valid_state(new_state):
                             states.append(new_state)
                             self.qntNodesExp += 1
+                            print(f"Expandido: {new_state} ( Estado aceito )\n", file=self.resultOut)
         else:
             for m in range(3):
                 for c in range(3):
@@ -208,13 +212,13 @@ class BuscaGulosa:
                             missionarios_direita - m,
                             canibais_direita - c
                         )
-                        print(f"Novo estado: {new_state}", file=self.resultOut)
                         self.qntNodesGen += 1
                         self.qntNodesFront +=1
                         
                         if self.is_valid_state(new_state):
                             states.append(new_state)
                             self.qntNodesExp += 1
+                            print(f"Expandido: {new_state} ( Estado aceito )\n", file=self.resultOut)
 
         return states
 
@@ -224,24 +228,24 @@ class BuscaGulosa:
 
     def greedy_search(self, state, path, depth):
         self.estados_visitados.add(state)
-        print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------", file=self.resultOut)
+        print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------\n", file=self.resultOut)
         if state == self.goal_state:
             print(f"Consumo de memória: {sys.getsizeof(self.estados_visitados)} bytes\n") 
             self.depth = depth
             return path
 
         next_states = self.generate_next_states(state)
-        next_states.sort(key=self.heuristic)  # Ordena os próximos estados com base na heurística
+        next_states.sort(key=self.heuristic)  # Ordena os proximos estados com base na heurística
         for next_state in next_states:
-            print(f"\nVerificando próximo estado: {next_state}", file=self.resultOut)
+            print(f"Verificando proximo estado: {next_state}", file=self.resultOut)
             if next_state not in self.estados_visitados:
-                print("Estado não visitado!!", file=self.resultOut)
+                print("Estado nao visitado!!", file=self.resultOut)
                 new_path = path + [next_state]
                 result = self.greedy_search(next_state, new_path, depth+1)
                 if result:
                     return result
             else:
-                print("Estado já visitado!", file=self.resultOut)
+                print("Estado ja visitado!", file=self.resultOut)
         return None
 
     def resolver(self):
@@ -273,9 +277,9 @@ class BuscaAStar:
         if missionarios_esquerda > 3 or canibais_esquerda > 3 or missionarios_direita > 3 or canibais_direita > 3:
             return False
         if (missionarios_esquerda < canibais_esquerda and missionarios_esquerda > 0) or (missionarios_direita < canibais_direita and missionarios_direita > 0):
-            print("ERRO: Há mais canibais que missionários em uma das bordas!\n", file=self.resultOut)
+            print(f"Expandido: {state}", file=self.resultOut)
+            print("ERRO: Ha mais canibais que missionarios em uma das bordas!\n", file=self.resultOut)
             return False
-        print(">>>Estado aceito.<<<\n", file=self.resultOut)
         return True
 
     def generate_next_states(self, state):
@@ -294,13 +298,14 @@ class BuscaAStar:
                             missionarios_direita + m,
                             canibais_direita + c
                         )
-                        print(f"Novo estado: {new_state}", file=self.resultOut)
+  
                         self.qntNodesGen += 1
                         self.qntNodesFront +=1
                         
                         if self.is_valid_state(new_state):
                             states.append(new_state)
                             self.qntNodesExp += 1
+                            print(f"Expandido: {new_state} ( Estado aceito )\n", file=self.resultOut)
         else:
             for m in range(3):
                 for c in range(3):
@@ -312,13 +317,14 @@ class BuscaAStar:
                             missionarios_direita - m,
                             canibais_direita - c
                         )
-                        print(f"Novo estado: {new_state}", file=self.resultOut)
+
                         self.qntNodesGen += 1
                         self.qntNodesFront +=1
                         
                         if self.is_valid_state(new_state):
                             states.append(new_state)
                             self.qntNodesExp += 1
+                            print(f"Expandido: {new_state} ( Estado aceito )\n", file=self.resultOut)
         return states
 
     def heuristic(self, state):
@@ -327,24 +333,24 @@ class BuscaAStar:
 
     def a_star_search(self, state, path, depth):
         self.estados_visitados.add(state)
-        print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------", file=self.resultOut)
+        print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------\n", file=self.resultOut)
         if state == self.goal_state:
             print(f"Consumo de memória: {sys.getsizeof(self.estados_visitados)} bytes\n") 
             self.depth = depth
             return path
 
         next_states = self.generate_next_states(state)
-        next_states.sort(key=lambda x: self.heuristic(x) + len(path))  # Ordena os próximos estados com base na função de custo combinada
+        next_states.sort(key=lambda x: self.heuristic(x) + len(path))  # Ordena os proximos estados com base na função de custo combinada
         for next_state in next_states:
-            print(f"\nVerificando próximo estado: {next_state}", file=self.resultOut)
+            print(f"Verificando proximo estado: {next_state}", file=self.resultOut)
             if next_state not in self.estados_visitados:
-                print("Estado não visitado!!", file=self.resultOut)
+                print("Estado nao visitado!!", file=self.resultOut)
                 new_path = path + [next_state]
                 result = self.a_star_search(next_state, new_path, depth + 1)  # Incrementa a profundidade em cada chamada recursiva
                 if result:
                     return result
             else:
-                print("Estado já visitado!", file=self.resultOut)
+                print("Estado ja visitado!", file=self.resultOut)
         return None
 
 

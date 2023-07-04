@@ -18,7 +18,7 @@ def solve(num_missionaries, num_cannibals):
     while stack:
         max_memory_usage = max(max_memory_usage, len(stack))
         path = stack.pop()  # Remove o último estado adicionado à pilha
-        print(f"Level {level}:")
+        print(f"\nProfundidade {level}:\n")
         nodes_expanded += 1
 
         current_state = path[-1]
@@ -29,12 +29,14 @@ def solve(num_missionaries, num_cannibals):
             solution_depth = len(path) - 1
             return path, nodes_expanded, nodes_generated, max_memory_usage, level, solution_depth, max_depth, execution_time
 
+        print(f'Atual: {current_state}\n')
         possible_moves = get_possible_moves(current_state)
+        print('Expandidos: \n')
         for move in possible_moves:
             new_state = apply_move(current_state, move)
-            valid_indicator = "(V)" if new_state.is_valid() else "(X)"
-            visited_indicator = "(R)" if str(new_state) in visited else "( )"
-            print(f"{current_state} -> {new_state} {valid_indicator} {visited_indicator}")
+            valid_indicator = "(Valido)" if new_state.is_valid() else "(Invalido)"
+            visited_indicator = "(já foi visitado)" if str(new_state) in visited else ""
+            print(f"---> {new_state} {visited_indicator} {valid_indicator} ")
             if str(new_state) not in visited:
                 nodes_generated += 1
                 if new_state.is_valid():
@@ -95,7 +97,7 @@ def plot_info(busca, nome):
 def plot_largura(busca, nome):
     
     nomes = ['Profundidade', 'Nós gerados', 'Nós expandidos', 'Nós na fronteira']
-    cores = ['red', 'green', 'yellow']
+    cores = ['red', 'green', 'yellow', 'blue']
     indices = range(len(busca))
         
     plt.bar(indices, busca, color=cores)
@@ -103,7 +105,7 @@ def plot_largura(busca, nome):
         plt.annotate(str(valor), xy=(i, valor), ha='center', va='bottom')
     plt.title(nome)
     plt.xticks(indices, nomes)
-    plt.show()
+    #plt.show()
  
 def main():
     quantidade = 3
@@ -129,16 +131,16 @@ def main():
             )
 
             if solution:
-                print("Caminho:")
+                print("Solução encontrada:\n")
                 for state in solution:
-                    print(state)
+                    print(f'--> {state}')
             else:
-                print("Solucao n encontrada")
+                print("Solucao não encontrada")
 
             # Statitics
             values = [solution_depth, nodes_generated, nodes_expanded, max_memory_usage]
 
-            plot_largura(values, 'Busca em Largura')
+            #plot_largura(values, 'Busca em Largura')
           
         elif option == 2:
             # Executar busca profundidade
@@ -148,7 +150,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
-            plot_info(busca, 'Busca em profundidade')
+            #plot_info(busca, 'Busca em profundidade')
 
         elif option == 3:
             # Executar busca gulosa
@@ -158,7 +160,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
-            plot_info(busca, 'Busca gulosa')
+            #plot_info(busca, 'Busca gulosa')
 
         elif option == 4:
             # Executar busca A*
@@ -168,7 +170,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
-            plot_info(busca, 'Busca em A*')
+            #plot_info(busca, 'Busca em A*')
 
 
 def print_menu():
