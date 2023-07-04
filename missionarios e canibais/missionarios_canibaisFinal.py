@@ -1,7 +1,8 @@
 from collections import deque
-import sys
+import sys, time
 
 class BuscaProfundidade:
+    
     def __init__(self, start_state, goal_state):
         self.estados_visitados = set()
         self.start_state = start_state
@@ -106,112 +107,42 @@ class BuscaProfundidade:
         return resultado
 
 class BuscaLargura:
-    def __init__(self, start_state, goal_state):
-        self.estados_visitados = set()
-        self.start_state = start_state
-        self.goal_state = goal_state
-        self.depth = 0
-        self.qntNodesGen = 0
-        self.qntNodesExp = 0
-        self.qntNodesFront = 0
-        
-        self.resultOut = None 
-        try:
-            self.resultOut = open("missionarios e canibais/out/bl-result.txt", "w")
-        except:
-            pass
-        print("------------------Algoritmo: Busca em Largura------------------\n", file=self.resultOut)
+    def __init__(self, left_missionaries, left_cannibals, right_missionaries, right_cannibals, boat_on_left,
+                 parent_state=None):
+        self.left_missionaries = left_missionaries
+        self.left_cannibals = left_cannibals
+        self.right_missionaries = right_missionaries
+        self.right_cannibals = right_cannibals
+        self.boat_on_left = boat_on_left
+        self.parent_state = parent_state
 
-    def is_valid_state(self, state):
-        missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
-
-        # Verifica se o estado é válido
-        if missionarios_esquerda < 0 or canibais_esquerda < 0 or missionarios_direita < 0 or canibais_direita < 0:
+    # Restante das funções da classe State
+    def is_valid(self):
+        if (
+            self.left_missionaries < 0
+            or self.left_cannibals < 0
+            or self.right_missionaries < 0
+            or self.right_cannibals < 0
+        ):
             return False
-        if missionarios_esquerda > 3 or canibais_esquerda > 3 or missionarios_direita > 3 or canibais_direita > 3:
+        if (
+            self.left_missionaries > 0
+            and self.left_missionaries < self.left_cannibals
+            or self.right_missionaries > 0
+            and self.right_missionaries < self.right_cannibals
+        ):
             return False
-        if (missionarios_esquerda < canibais_esquerda and missionarios_esquerda > 0) or (missionarios_direita < canibais_direita and missionarios_direita > 0):
-            print("ERRO: Há mais canibais que missionários em uma das bordas!\n", file=self.resultOut)
-            return False
-        print(">>>Estado aceito.<<<\n", file=self.resultOut)
         return True
 
-    def generate_next_states(self, state):
-        self.qntNodesFront = 0
-        states = []
-        missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
+    def is_goal_state(self):
+        return (
+            self.left_missionaries == 0
+            and self.left_cannibals == 0
+            and self.right_missionaries == self.right_cannibals
+        )
 
-        if barco == 'esquerda':
-            for m in range(3):
-                for c in range(3):
-                    if m + c > 0 and m + c <= 2:
-                        new_state = (
-                            max(missionarios_esquerda - m, 0),
-                            max(canibais_esquerda - c, 0),
-                            'direita',
-                            min(missionarios_direita + m, 3),
-                            min(canibais_direita + c, 3)
-                        )
-                        print(f"Novo estado: {new_state}", file=self.resultOut)
-                        self.qntNodesGen += 1
-                        self.qntNodesFront +=1
-                        
-                        if self.is_valid_state(new_state):
-                            states.append(new_state)
-                            self.qntNodesExp += 1
-        else:
-            for m in range(3):
-                for c in range(3):
-                    if m + c > 0 and m + c <= 2:
-                        new_state = (
-                            min(missionarios_esquerda + m, 3),
-                            min(canibais_esquerda + c, 3),
-                            'esquerda',
-                            max(missionarios_direita - m, 0),
-                            max(canibais_direita - c, 0)
-                        )
-                        print(f"Novo estado: {new_state}", file=self.resultOut)
-                        self.qntNodesGen += 1
-                        self.qntNodesFront +=1
-                        if self.is_valid_state(new_state):
-                            states.append(new_state)
-                            self.qntNodesExp += 1
-
-        return states
-
-    def bfs(self, state, path, depth):
-        fila = deque()
-        fila.append([state])
-
-        while fila:
-            path = fila.popleft()
-            state = path[-1]
-            print(f"\n---------Estado atual: {state} (Profundidade: {len(path)-1})------------", file=self.resultOut)
-
-            if state == self.goal_state:
-                print(f"Profundidade da solução: {len(path) - 1}", file=self.resultOut)
-                print(f"Consumo de memória: {sys.getsizeof(self.estados_visitados)} bytes\n") 
-                self.depth = len(path) - 1
-                return path
-
-            self.estados_visitados.add(state)
-            next_states = self.generate_next_states(state)
-
-            for next_state in next_states:
-                print(f"\nVerificando próximo estado: {next_state}", file=self.resultOut)
-                if next_state not in self.estados_visitados:
-                    if self.is_valid_state(next_state):
-                        new_path = list(path)
-                        new_path.append(next_state)
-                        fila.append(new_path)
-                else:
-                    print("Estado já visitado!!", file=self.resultOut)
-
-        return None
-
-    def resolver(self):
-        return self.bfs(self.start_state, [self.start_state], 0)  # Inicia a profundidade com 0
-
+    def __str__(self):
+        return f"[{self.left_missionaries}, {self.left_cannibals}, {self.right_missionaries}, {self.right_cannibals}, {'Esquerda' if self.boat_on_left else 'Direita'}]"
     
 class BuscaGulosa:
     def __init__(self, start_state, goal_state):

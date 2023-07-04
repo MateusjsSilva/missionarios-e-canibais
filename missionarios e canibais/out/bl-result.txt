@@ -9,24 +9,24 @@ Novo estado: (3, 1, 'direita', 0, 2)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 3, 'direita', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 2, 'direita', 1, 1)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'direita', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 2, 'direita', 0, 1)
+Verificando próximo estado: (3, 2, 'direita', 0, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'direita', 0, 2)
+Verificando próximo estado: (3, 1, 'direita', 0, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'direita', 1, 1)
+Verificando próximo estado: (2, 2, 'direita', 1, 1)
 >>>Estado aceito.<<<
 
 
@@ -47,20 +47,20 @@ Novo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 3, 'esquerda', 0, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 3, 'esquerda', 0, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 3, 'esquerda', 0, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 3, 'esquerda', 0, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 3, 'esquerda', 0, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 3, 'esquerda', 0, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
 
 
@@ -81,31 +81,31 @@ Novo estado: (3, 1, 'esquerda', 0, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 3, 'esquerda', 0, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 3, 'esquerda', 0, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
 >>>Estado aceito.<<<
 
 
 ---------Estado atual: (2, 2, 'direita', 1, 1) (Profundidade: 1)------------
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
@@ -117,14 +117,14 @@ Novo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 3, 'esquerda', 0, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 3, 'esquerda', 0, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
 >>>Estado aceito.<<<
 
 
@@ -139,21 +139,21 @@ Novo estado: (2, 2, 'direita', 1, 1)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 2, 'direita', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 1, 'direita', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'direita', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'direita', 1, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (2, 2, 'direita', 1, 1)
+Estado já visitado!!
 
 ---------Estado atual: (3, 2, 'esquerda', 0, 1) (Profundidade: 2)------------
 Novo estado: (3, 1, 'direita', 0, 2)
@@ -166,21 +166,21 @@ Novo estado: (2, 2, 'direita', 1, 1)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 2, 'direita', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 1, 'direita', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'direita', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'direita', 1, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (2, 2, 'direita', 1, 1)
+Estado já visitado!!
 
 ---------Estado atual: (3, 2, 'esquerda', 0, 1) (Profundidade: 2)------------
 Novo estado: (3, 1, 'direita', 0, 2)
@@ -193,21 +193,21 @@ Novo estado: (2, 2, 'direita', 1, 1)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 2, 'direita', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 1, 'direita', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'direita', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'direita', 1, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (2, 2, 'direita', 1, 1)
+Estado já visitado!!
 
 ---------Estado atual: (3, 1, 'esquerda', 0, 2) (Profundidade: 2)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -217,24 +217,24 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 1, 'direita', 2, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (1, 1, 'direita', 2, 2)
+Verificando próximo estado: (1, 1, 'direita', 2, 2)
 >>>Estado aceito.<<<
 
 
@@ -249,21 +249,21 @@ Novo estado: (2, 2, 'direita', 1, 1)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 2, 'direita', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 1, 'direita', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'direita', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'direita', 1, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (2, 2, 'direita', 1, 1)
+Estado já visitado!!
 
 ---------Estado atual: (3, 1, 'esquerda', 0, 2) (Profundidade: 2)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -273,24 +273,24 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 1, 'direita', 2, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (1, 1, 'direita', 2, 2)
+Verificando próximo estado: (1, 1, 'direita', 2, 2)
 >>>Estado aceito.<<<
 
 
@@ -305,21 +305,21 @@ Novo estado: (2, 2, 'direita', 1, 1)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 2, 'direita', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 1, 'direita', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'direita', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'direita', 1, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (2, 2, 'direita', 1, 1)
+Estado já visitado!!
 
 ---------Estado atual: (3, 2, 'esquerda', 0, 1) (Profundidade: 2)------------
 Novo estado: (3, 1, 'direita', 0, 2)
@@ -332,21 +332,21 @@ Novo estado: (2, 2, 'direita', 1, 1)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 2, 'direita', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 1, 'direita', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'direita', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'direita', 1, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (2, 2, 'direita', 1, 1)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
 Novo estado: (3, 1, 'esquerda', 0, 2)
@@ -365,54 +365,20 @@ Novo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
----------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
-Novo estado: (3, 1, 'esquerda', 0, 2)
->>>Estado aceito.<<<
-
-Novo estado: (3, 2, 'esquerda', 0, 1)
->>>Estado aceito.<<<
-
-Novo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-Novo estado: (3, 1, 'esquerda', 0, 2)
->>>Estado aceito.<<<
-
-Novo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
@@ -433,54 +399,20 @@ Novo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
----------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
-Novo estado: (3, 1, 'esquerda', 0, 2)
->>>Estado aceito.<<<
-
-Novo estado: (3, 2, 'esquerda', 0, 1)
->>>Estado aceito.<<<
-
-Novo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-Novo estado: (3, 1, 'esquerda', 0, 2)
->>>Estado aceito.<<<
-
-Novo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
@@ -501,32 +433,100 @@ Novo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+---------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
+Novo estado: (3, 1, 'esquerda', 0, 2)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 2, 'esquerda', 0, 1)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 1, 'esquerda', 0, 2)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+---------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
+Novo estado: (3, 1, 'esquerda', 0, 2)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 2, 'esquerda', 0, 1)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 1, 'esquerda', 0, 2)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
 ---------Estado atual: (1, 1, 'direita', 2, 2) (Profundidade: 3)------------
 Novo estado: (1, 2, 'esquerda', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 1, 'esquerda', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 2, 'esquerda', 1, 1)
 >>>Estado aceito.<<<
@@ -535,12 +535,12 @@ Novo estado: (3, 1, 'esquerda', 0, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'esquerda', 1, 1)
+Verificando próximo estado: (2, 2, 'esquerda', 1, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
 Novo estado: (3, 1, 'esquerda', 0, 2)
@@ -559,54 +559,20 @@ Novo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
----------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
-Novo estado: (3, 1, 'esquerda', 0, 2)
->>>Estado aceito.<<<
-
-Novo estado: (3, 2, 'esquerda', 0, 1)
->>>Estado aceito.<<<
-
-Novo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-Novo estado: (3, 1, 'esquerda', 0, 2)
->>>Estado aceito.<<<
-
-Novo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
@@ -627,32 +593,66 @@ Novo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+---------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
+Novo estado: (3, 1, 'esquerda', 0, 2)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 2, 'esquerda', 0, 1)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 1, 'esquerda', 0, 2)
+>>>Estado aceito.<<<
+
+Novo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
+
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
 ---------Estado atual: (1, 1, 'direita', 2, 2) (Profundidade: 3)------------
 Novo estado: (1, 2, 'esquerda', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 1, 'esquerda', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 2, 'esquerda', 1, 1)
 >>>Estado aceito.<<<
@@ -661,12 +661,12 @@ Novo estado: (3, 1, 'esquerda', 0, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'esquerda', 1, 1)
+Verificando próximo estado: (2, 2, 'esquerda', 1, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'direita', 0, 3) (Profundidade: 3)------------
 Novo estado: (3, 1, 'esquerda', 0, 2)
@@ -685,20 +685,20 @@ Novo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
@@ -719,20 +719,20 @@ Novo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 2, 'esquerda', 0, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 2, 'esquerda', 0, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (3, 1, 'esquerda', 0, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 1, 'esquerda', 0, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'esquerda', 0, 3)
+Verificando próximo estado: (3, 0, 'esquerda', 0, 3)
 >>>Estado aceito.<<<
 
 
@@ -744,20 +744,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -767,20 +767,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -790,20 +790,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -813,20 +813,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -836,20 +836,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -859,20 +859,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -882,20 +882,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -905,20 +905,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -928,20 +928,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -951,30 +951,30 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (2, 2, 'esquerda', 1, 1) (Profundidade: 4)------------
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 2, 'direita', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 1, 'direita', 2, 2)
 >>>Estado aceito.<<<
@@ -983,10 +983,10 @@ Novo estado: (0, 2, 'direita', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (1, 1, 'direita', 2, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (1, 1, 'direita', 2, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
 >>>Estado aceito.<<<
 
 
@@ -998,20 +998,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -1021,20 +1021,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -1044,20 +1044,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -1067,20 +1067,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -1090,20 +1090,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -1113,30 +1113,30 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (2, 2, 'esquerda', 1, 1) (Profundidade: 4)------------
 Novo estado: (2, 1, 'direita', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 2, 'direita', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 1, 'direita', 2, 2)
 >>>Estado aceito.<<<
@@ -1145,10 +1145,10 @@ Novo estado: (0, 2, 'direita', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (1, 1, 'direita', 2, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (1, 1, 'direita', 2, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
 >>>Estado aceito.<<<
 
 
@@ -1160,20 +1160,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -1183,20 +1183,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -1206,20 +1206,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (3, 0, 'esquerda', 0, 3) (Profundidade: 4)------------
 Novo estado: (3, 0, 'direita', 0, 3)
@@ -1229,20 +1229,20 @@ Novo estado: (3, 0, 'direita', 0, 3)
 >>>Estado aceito.<<<
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 0, 'direita', 1, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (3, 0, 'direita', 0, 3)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (3, 0, 'direita', 0, 3)
+Estado já visitado!!
 
 ---------Estado atual: (0, 2, 'direita', 3, 1) (Profundidade: 5)------------
 Novo estado: (0, 3, 'esquerda', 3, 0)
@@ -1252,25 +1252,25 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 2, 'esquerda', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 2, 'esquerda', 1, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'esquerda', 1, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (2, 2, 'esquerda', 1, 1)
+Estado já visitado!!
 
 ---------Estado atual: (0, 2, 'direita', 3, 1) (Profundidade: 5)------------
 Novo estado: (0, 3, 'esquerda', 3, 0)
@@ -1280,25 +1280,25 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 2, 'esquerda', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 2, 'esquerda', 1, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (2, 2, 'esquerda', 1, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (2, 2, 'esquerda', 1, 1)
+Estado já visitado!!
 
 ---------Estado atual: (0, 3, 'esquerda', 3, 0) (Profundidade: 6)------------
 Novo estado: (0, 2, 'direita', 3, 1)
@@ -1317,56 +1317,21 @@ Novo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'direita', 3, 0)
+Verificando próximo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'direita', 3, 0)
->>>Estado aceito.<<<
-
-
----------Estado atual: (0, 3, 'esquerda', 3, 0) (Profundidade: 6)------------
-Novo estado: (0, 2, 'direita', 3, 1)
->>>Estado aceito.<<<
-
-Novo estado: (0, 1, 'direita', 3, 2)
->>>Estado aceito.<<<
-
-Novo estado: (0, 3, 'direita', 3, 0)
->>>Estado aceito.<<<
-
-Novo estado: (0, 2, 'direita', 3, 1)
->>>Estado aceito.<<<
-
-Novo estado: (0, 3, 'direita', 3, 0)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (0, 3, 'direita', 3, 0)
->>>Estado aceito.<<<
-
-
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
-
-Verificando prÃ³ximo estado: (0, 3, 'direita', 3, 0)
+Verificando próximo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
@@ -1387,21 +1352,21 @@ Novo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'direita', 3, 0)
+Verificando próximo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'direita', 3, 0)
+Verificando próximo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
@@ -1422,21 +1387,56 @@ Novo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'direita', 3, 0)
+Verificando próximo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'direita', 3, 0)
+Verificando próximo estado: (0, 3, 'direita', 3, 0)
+>>>Estado aceito.<<<
+
+
+---------Estado atual: (0, 3, 'esquerda', 3, 0) (Profundidade: 6)------------
+Novo estado: (0, 2, 'direita', 3, 1)
+>>>Estado aceito.<<<
+
+Novo estado: (0, 1, 'direita', 3, 2)
+>>>Estado aceito.<<<
+
+Novo estado: (0, 3, 'direita', 3, 0)
+>>>Estado aceito.<<<
+
+Novo estado: (0, 2, 'direita', 3, 1)
+>>>Estado aceito.<<<
+
+Novo estado: (0, 3, 'direita', 3, 0)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
+
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (0, 3, 'direita', 3, 0)
+>>>Estado aceito.<<<
+
+
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
+
+Verificando próximo estado: (0, 3, 'direita', 3, 0)
 >>>Estado aceito.<<<
 
 
@@ -1451,20 +1451,20 @@ Novo estado: (1, 1, 'esquerda', 2, 2)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 2, 'esquerda', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 1, 'esquerda', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 2, 'esquerda', 3, 1)
+Verificando próximo estado: (0, 2, 'esquerda', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (1, 1, 'esquerda', 2, 2)
+Verificando próximo estado: (1, 1, 'esquerda', 2, 2)
 >>>Estado aceito.<<<
 
 
@@ -1476,20 +1476,20 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
 ---------Estado atual: (0, 3, 'direita', 3, 0) (Profundidade: 7)------------
 Novo estado: (0, 3, 'esquerda', 3, 0)
@@ -1499,20 +1499,20 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
 ---------Estado atual: (0, 1, 'direita', 3, 2) (Profundidade: 7)------------
 Novo estado: (0, 2, 'esquerda', 3, 1)
@@ -1525,20 +1525,20 @@ Novo estado: (1, 1, 'esquerda', 2, 2)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 2, 'esquerda', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 1, 'esquerda', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 2, 'esquerda', 3, 1)
+Verificando próximo estado: (0, 2, 'esquerda', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (1, 1, 'esquerda', 2, 2)
+Verificando próximo estado: (1, 1, 'esquerda', 2, 2)
 >>>Estado aceito.<<<
 
 
@@ -1550,20 +1550,20 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
 ---------Estado atual: (0, 3, 'direita', 3, 0) (Profundidade: 7)------------
 Novo estado: (0, 3, 'esquerda', 3, 0)
@@ -1573,20 +1573,20 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
 ---------Estado atual: (0, 1, 'direita', 3, 2) (Profundidade: 7)------------
 Novo estado: (0, 2, 'esquerda', 3, 1)
@@ -1599,20 +1599,20 @@ Novo estado: (1, 1, 'esquerda', 2, 2)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 2, 'esquerda', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 1, 'esquerda', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 2, 'esquerda', 3, 1)
+Verificando próximo estado: (0, 2, 'esquerda', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (1, 1, 'esquerda', 2, 2)
+Verificando próximo estado: (1, 1, 'esquerda', 2, 2)
 >>>Estado aceito.<<<
 
 
@@ -1624,20 +1624,20 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
 ---------Estado atual: (0, 3, 'direita', 3, 0) (Profundidade: 7)------------
 Novo estado: (0, 3, 'esquerda', 3, 0)
@@ -1647,20 +1647,20 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
 ---------Estado atual: (0, 1, 'direita', 3, 2) (Profundidade: 7)------------
 Novo estado: (0, 2, 'esquerda', 3, 1)
@@ -1673,20 +1673,20 @@ Novo estado: (1, 1, 'esquerda', 2, 2)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 2, 'esquerda', 2, 1)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 1, 'esquerda', 1, 2)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 2, 'esquerda', 3, 1)
+Verificando próximo estado: (0, 2, 'esquerda', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (1, 1, 'esquerda', 2, 2)
+Verificando próximo estado: (1, 1, 'esquerda', 2, 2)
 >>>Estado aceito.<<<
 
 
@@ -1698,20 +1698,20 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
 ---------Estado atual: (0, 3, 'direita', 3, 0) (Profundidade: 7)------------
 Novo estado: (0, 3, 'esquerda', 3, 0)
@@ -1721,20 +1721,20 @@ Novo estado: (0, 3, 'esquerda', 3, 0)
 >>>Estado aceito.<<<
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 3, 'esquerda', 2, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (2, 3, 'esquerda', 1, 0)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 3, 'esquerda', 3, 0)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 3, 'esquerda', 3, 0)
+Estado já visitado!!
 
 ---------Estado atual: (0, 2, 'esquerda', 3, 1) (Profundidade: 8)------------
 Novo estado: (0, 1, 'direita', 3, 2)
@@ -1753,28 +1753,28 @@ Novo estado: (0, 2, 'direita', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 0, 'direita', 3, 3)
+Verificando próximo estado: (0, 0, 'direita', 3, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
 ---------Estado atual: (1, 1, 'esquerda', 2, 2) (Profundidade: 8)------------
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
@@ -1786,15 +1786,15 @@ Novo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 0, 'direita', 3, 3)
+Verificando próximo estado: (0, 0, 'direita', 3, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
 ---------Estado atual: (0, 2, 'esquerda', 3, 1) (Profundidade: 8)------------
 Novo estado: (0, 1, 'direita', 3, 2)
@@ -1813,28 +1813,28 @@ Novo estado: (0, 2, 'direita', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 0, 'direita', 3, 3)
+Verificando próximo estado: (0, 0, 'direita', 3, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
 ---------Estado atual: (1, 1, 'esquerda', 2, 2) (Profundidade: 8)------------
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
@@ -1846,15 +1846,15 @@ Novo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 0, 'direita', 3, 3)
+Verificando próximo estado: (0, 0, 'direita', 3, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
 ---------Estado atual: (0, 2, 'esquerda', 3, 1) (Profundidade: 8)------------
 Novo estado: (0, 1, 'direita', 3, 2)
@@ -1873,28 +1873,28 @@ Novo estado: (0, 2, 'direita', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 0, 'direita', 3, 3)
+Verificando próximo estado: (0, 0, 'direita', 3, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
 ---------Estado atual: (1, 1, 'esquerda', 2, 2) (Profundidade: 8)------------
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
@@ -1906,15 +1906,15 @@ Novo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 0, 'direita', 3, 3)
+Verificando próximo estado: (0, 0, 'direita', 3, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
 ---------Estado atual: (0, 2, 'esquerda', 3, 1) (Profundidade: 8)------------
 Novo estado: (0, 1, 'direita', 3, 2)
@@ -1933,28 +1933,28 @@ Novo estado: (0, 2, 'direita', 3, 1)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 0, 'direita', 3, 3)
+Verificando próximo estado: (0, 0, 'direita', 3, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 2, 'direita', 3, 1)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 2, 'direita', 3, 1)
+Estado já visitado!!
 
 ---------Estado atual: (1, 1, 'esquerda', 2, 2) (Profundidade: 8)------------
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (1, 0, 'direita', 2, 3)
-ERRO: HÃ¡ mais canibais que missionÃ¡rios em uma das bordas!
+ERRO: Há mais canibais que missionários em uma das bordas!
 
 Novo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
@@ -1966,15 +1966,15 @@ Novo estado: (0, 1, 'direita', 3, 2)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
-Verificando prÃ³ximo estado: (0, 0, 'direita', 3, 3)
+Verificando próximo estado: (0, 0, 'direita', 3, 3)
 >>>Estado aceito.<<<
 
 
-Verificando prÃ³ximo estado: (0, 1, 'direita', 3, 2)
-Estado jÃ¡ visitado!!
+Verificando próximo estado: (0, 1, 'direita', 3, 2)
+Estado já visitado!!
 
 ---------Estado atual: (0, 0, 'direita', 3, 3) (Profundidade: 9)------------
-Profundidade da soluÃ§Ã£o: 9
+Profundidade da solução: 9
