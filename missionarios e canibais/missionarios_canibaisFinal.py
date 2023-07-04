@@ -1,4 +1,3 @@
-#Somente modifiquei o em profundidade, por algum motivo ele não soluciona corretamente
 from collections import deque
 import sys
 
