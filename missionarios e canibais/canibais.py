@@ -1,5 +1,6 @@
 #Somente modifiquei o em profundidade, por algum motivo ele não soluciona corretamente
 from collections import deque
+import sys
 
 class BuscaProfundidade:
     def __init__(self, start_state, goal_state):
@@ -9,6 +10,7 @@ class BuscaProfundidade:
         self.depth = 0
         self.qntNodesGen = 0
         self.qntNodesExp = 0
+        self.qntNodesFront = 0
         
         self.resultOut = None 
         try:
@@ -32,6 +34,7 @@ class BuscaProfundidade:
         return True
 
     def generate_next_states(self, state):
+        self.qntNodesFront = 0
         states = []
         missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
 
@@ -48,9 +51,12 @@ class BuscaProfundidade:
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
                         self.qntNodesGen += 1
+                        self.qntNodesFront +=1
+                        
                         if self.is_valid_state(new_state):
                             states.append(new_state)
                             self.qntNodesExp += 1
+                            
         else:
             for m in range(3):
                 for c in range(3):
@@ -64,16 +70,19 @@ class BuscaProfundidade:
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
                         self.qntNodesGen += 1
+                        self.qntNodesFront +=1
+                        
                         if self.is_valid_state(new_state):
                             states.append(new_state)
                             self.qntNodesExp += 1
-
+                            
         return states
 
     def dfs(self, state, path, depth):
         self.estados_visitados.add(state)
         if state == self.goal_state:
             print(f"Profundidade da solução: {depth}", file=self.resultOut)
+            print(f"Consumo de memória: {sys.getsizeof(self.estados_visitados)} bytes\n") 
             self.depth = depth
             return path
         
@@ -94,13 +103,19 @@ class BuscaProfundidade:
         return None
 
     def resolver(self):
-        return self.dfs(self.start_state, [self.start_state], 0)  # Inicia a profundidade com 0 
+        resultado = self.dfs(self.start_state, [self.start_state], 0)  # Inicia a profundidade com 0
+        return resultado
 
 class BuscaLargura:
     def __init__(self, start_state, goal_state):
         self.estados_visitados = set()
         self.start_state = start_state
         self.goal_state = goal_state
+        self.depth = 0
+        self.qntNodesGen = 0
+        self.qntNodesExp = 0
+        self.qntNodesFront = 0
+        
         self.resultOut = None 
         try:
             self.resultOut = open("missionarios e canibais/out/bl-result.txt", "w")
@@ -123,6 +138,7 @@ class BuscaLargura:
         return True
 
     def generate_next_states(self, state):
+        self.qntNodesFront = 0
         states = []
         missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
 
@@ -138,8 +154,12 @@ class BuscaLargura:
                             min(canibais_direita + c, 3)
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
+                        self.qntNodesGen += 1
+                        self.qntNodesFront +=1
+                        
                         if self.is_valid_state(new_state):
                             states.append(new_state)
+                            self.qntNodesExp += 1
         else:
             for m in range(3):
                 for c in range(3):
@@ -152,8 +172,11 @@ class BuscaLargura:
                             max(canibais_direita - c, 0)
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
+                        self.qntNodesGen += 1
+                        self.qntNodesFront +=1
                         if self.is_valid_state(new_state):
                             states.append(new_state)
+                            self.qntNodesExp += 1
 
         return states
 
@@ -168,6 +191,8 @@ class BuscaLargura:
 
             if state == self.goal_state:
                 print(f"Profundidade da solução: {len(path) - 1}", file=self.resultOut)
+                print(f"Consumo de memória: {sys.getsizeof(self.estados_visitados)} bytes\n") 
+                self.depth = len(path) - 1
                 return path
 
             self.estados_visitados.add(state)
@@ -194,6 +219,10 @@ class BuscaGulosa:
         self.estados_visitados = set()
         self.start_state = start_state
         self.goal_state = goal_state
+        self.depth = 0
+        self.qntNodesGen = 0
+        self.qntNodesExp = 0
+        self.qntNodesFront = 0
         self.resultOut = None 
         try:
             self.resultOut = open("missionarios e canibais/out/bg-result.txt", "w")
@@ -216,6 +245,7 @@ class BuscaGulosa:
         return True
 
     def generate_next_states(self, state):
+        self.qntNodesFront = 0
         states = []
         missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
 
@@ -231,8 +261,12 @@ class BuscaGulosa:
                             canibais_direita + c
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
+                        self.qntNodesGen += 1
+                        self.qntNodesFront +=1
+                        
                         if self.is_valid_state(new_state):
                             states.append(new_state)
+                            self.qntNodesExp += 1
         else:
             for m in range(3):
                 for c in range(3):
@@ -245,8 +279,12 @@ class BuscaGulosa:
                             canibais_direita - c
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
+                        self.qntNodesGen += 1
+                        self.qntNodesFront +=1
+                        
                         if self.is_valid_state(new_state):
                             states.append(new_state)
+                            self.qntNodesExp += 1
 
         return states
 
@@ -258,6 +296,8 @@ class BuscaGulosa:
         self.estados_visitados.add(state)
         print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------", file=self.resultOut)
         if state == self.goal_state:
+            print(f"Consumo de memória: {sys.getsizeof(self.estados_visitados)} bytes\n") 
+            self.depth = depth
             return path
 
         next_states = self.generate_next_states(state)
@@ -282,6 +322,11 @@ class BuscaAStar:
         self.estados_visitados = set()
         self.start_state = start_state
         self.goal_state = goal_state
+        self.depth = 0
+        self.qntNodesGen = 0
+        self.qntNodesExp = 0
+        self.qntNodesFront = 0
+        
         self.resultOut = None 
         try:
             self.resultOut = open("missionarios e canibais/out/bas-result.txt", "w")
@@ -304,6 +349,7 @@ class BuscaAStar:
         return True
 
     def generate_next_states(self, state):
+        self.qntNodesFront = 0
         states = []
         missionarios_esquerda, canibais_esquerda, barco, missionarios_direita, canibais_direita = state
 
@@ -319,8 +365,12 @@ class BuscaAStar:
                             canibais_direita + c
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
+                        self.qntNodesGen += 1
+                        self.qntNodesFront +=1
+                        
                         if self.is_valid_state(new_state):
                             states.append(new_state)
+                            self.qntNodesExp += 1
         else:
             for m in range(3):
                 for c in range(3):
@@ -333,8 +383,12 @@ class BuscaAStar:
                             canibais_direita - c
                         )
                         print(f"Novo estado: {new_state}", file=self.resultOut)
+                        self.qntNodesGen += 1
+                        self.qntNodesFront +=1
+                        
                         if self.is_valid_state(new_state):
                             states.append(new_state)
+                            self.qntNodesExp += 1
         return states
 
     def heuristic(self, state):
@@ -345,6 +399,8 @@ class BuscaAStar:
         self.estados_visitados.add(state)
         print(f"\n---------Estado atual: {state} (Profundidade: {depth})------------", file=self.resultOut)
         if state == self.goal_state:
+            print(f"Consumo de memória: {sys.getsizeof(self.estados_visitados)} bytes\n") 
+            self.depth = depth
             return path
 
         next_states = self.generate_next_states(state)

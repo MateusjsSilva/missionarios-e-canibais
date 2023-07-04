@@ -31,15 +31,17 @@ def plotar_arvore_estados(grafo):
  """
  
 def plot_info(busca, nome):
-    dados = [busca.depth, busca.qntNodesGen, busca.qntNodesExp]
-    nomes = ['Profundidade', 'Nós gerados', 'Nós expandidos']
-    cores = ['red', 'green', 'yellow']
+    dados = [busca.depth, busca.qntNodesGen, busca.qntNodesExp, busca.qntNodesFront]
+    nomes = ['Profundidade', 'Nós gerados', 'Nós expandidos', 'Nós na fronteira']
+    cores = ['red', 'green', 'yellow', 'blue']
     indices = range(len(dados))
+        
     plt.bar(indices, dados, color=cores)
-    plt.title("Busca em profundidade")
-    plt.ylabel("Profundidade")
+    for i, valor in enumerate(dados):
+        plt.annotate(str(valor), xy=(i, valor), ha='center', va='bottom')
+    plt.title(nome)
     plt.xticks(indices, nomes)
-    plt.show()     
+    plt.show()
  
 def main():
     quantidade = 3
@@ -65,6 +67,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
+            plot_info(busca, 'Busca em largura')
            
             #criar_arvore(busca)
 
@@ -76,7 +79,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
-            plot_info(busca)
+            plot_info(busca, 'Busca em profundidade')
             #criar_arvore(busca)
 
         elif option == 3:
@@ -87,6 +90,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
+            plot_info(busca, 'Busca gulosa')
             #criar_arvore(busca)
 
         elif option == 4:
@@ -97,6 +101,7 @@ def main():
             solucao = busca.resolver()
             t_end = time.perf_counter()
             printSolucao(solucao, t_end, t_start)
+            plot_info(busca, 'Busca em A*')
             #criar_arvore(busca)
 
 
